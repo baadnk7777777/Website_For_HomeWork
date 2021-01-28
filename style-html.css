@@ -11,7 +11,7 @@
 }
 
 .container-web{
-    max-width: 960px;
+    max-width: 1200px;
     width: 100%;
     
     
@@ -124,4 +124,129 @@ i.fa {
 .example-videoreal{
     text-align: center;
     margin-top: 40px;
+}
+
+
+/* End video */
+.example-center{
+    
+}
+
+.grid-example-center{
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #cfcfcf ;
+}
+
+.grid-example-center h1{
+    padding: 10px;
+    color: white;
+    background-color: #252525;
+}
+
+.grid-example-center h4{
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-example-center p{
+    padding-left: 10px;
+   font-size: 18px;
+   background-color: #252525af;
+   color: white;
+}
+
+.example-center-text{
+    margin-top: 40px;
+}
+
+
+.grid-example-center-text{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-example-center-text-item{
+    /* padding: 20px; */
+    border: 0.5px solid black;
+    box-shadow: 5px 5px #cfcfcf ;
+}
+
+.center-text-box{
+    height: 100px;
+    width: 100px;
+    background-color: #252525;
+    color: white;
+    
+    
+}
+
+.grid-example-center-text-item h3{
+    padding: 20px;
+    background-color: #6930c3;
+    color: white;
+    
+}
+
+.div-before-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.div-after-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid-example-center-text-after{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-example-center-text-after-item{
+    text-align: center;
+    border: 0.5px solid black;
+    box-shadow: 5px 5px #cfcfcf ;
+}
+
+.grid-example-center-text-after-item h3{
+    padding: 20px;
+    background-color: #6930c3;
+    color: white;
+}
+
+.fieldset{
+    border: black 1px solid;
+}
+
+.example-cite{
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #cfcfcf ;
+}
+
+.grid-example-cite h1{
+    padding: 10px;
+    color: white;
+    background-color: #252525;
+}
+
+..grid-example-cite h4{
+    padding: 10px;
+    text-align: center;
+}
+
+p.text-cite-dis{
+    padding-left: 10px;
+   font-size: 18px;
+   background-color: #252525af;
+   color: white;
+}
+
+.footer-credit{
+    color: white;
+    text-align: right;
+    padding: 20px;
+    height: 60px;
+    background-color: #6930c3;
 }
