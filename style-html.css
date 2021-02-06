@@ -146,7 +146,7 @@ i.fa {
 
 .grid-example-center h4{
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .grid-example-center p{
@@ -204,7 +204,7 @@ i.fa {
 }
 
 .grid-example-center-text-after-item{
-    text-align: center;
+    /* text-align: center; */
     border: 0.5px solid black;
     box-shadow: 5px 5px #cfcfcf ;
 }
@@ -231,7 +231,7 @@ i.fa {
     background-color: #252525;
 }
 
-..grid-example-cite h4{
+.grid-example-cite h4{
     padding: 10px;
     text-align: center;
 }

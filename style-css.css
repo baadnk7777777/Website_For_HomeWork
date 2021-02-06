@@ -124,6 +124,14 @@ h2.after{
     text-shadow: 3px 2px #7d50c5;
 }
 
+h2.wh{
+    text-shadow: 2px 2px 4px firebrick;
+}
+
+h2.neon{
+    text-shadow: 0 0 3px #FF0000;
+}
+
 .text{
     padding: 10px;
     margin-top: 20px;
