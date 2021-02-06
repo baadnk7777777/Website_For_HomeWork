@@ -3,6 +3,14 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    height: 100%;
+    /* background-color: blanchedalmond; */
+    min-height: 100%;
+    position: relative;
+}
+
 .nav-bar{
     
 }
@@ -62,22 +70,23 @@ ul.nav-menu li a {
 /* End Nab-bar */
 
 .content{
-    background-color:chartreuse;
+    margin-top: 40px;
+    /* background-color:chartreuse; */
     width: 970px;
     height: auto;
+    
 }
 
 /* End content */
 
 
-hr{
+.footerhr{
     margin-top: 180px;
     margin-bottom: 180px;
 }
 
 footer{
-    height: 30px;
-    
+    background-color: black;
     
 }
 
@@ -90,4 +99,14 @@ footer{
     float: right;
 }
 
+.content h1{
+    background-color: #dddddd;
+}
+
+.pic {
+    width: 600px;
+    height: auto;
+    text-align: center;
+    overflow: hidden
+}
 /* End Footer */
